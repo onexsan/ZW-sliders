@@ -1,0 +1,106 @@
+@include phones {
+
+  .container__splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f9fb;
+    position: relative;
+  }
+
+  .container__splash::after {
+    content: "";
+    background-image: url('./pictures/ball2.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+  }
+
+  .splash__desc {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    position: relative;
+  }
+
+  .splash__desc::after {
+    content: "";
+    background-image: url('./pictures/ball1.png');
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+  } 
+
+  .splash__huge {
+    color: #ffffff;
+    //font-family: "Intro - Black";
+    font-size: 79px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .splash__big {
+    text-shadow: 0 0 32px rgba(119, 123, 142, 0.16);
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+
+    align-self: flex-end;
+  }
+
+  .logo__img {
+    width: 109px;
+    height: 70px;
+  }
+
+  .splash__logo {
+    margin: 19px 0 16px;
+  }
+
+  .logo__pic {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .splash__name {
+    color: #777b8e;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .splash__text {
+    color: #a3a5af;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
