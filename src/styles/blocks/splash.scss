@@ -3,8 +3,7 @@
   .container__splash {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f6f9fb;
     position: relative;
   }
@@ -19,6 +18,13 @@
     position: absolute;
     bottom: 15%;
     left: 0%;
+  }
+
+  .splash__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
   }
 
   .splash__desc {
@@ -37,7 +43,14 @@
     position: absolute;
     top: -10%;
     right: -10%;
-  } 
+  }
+
+  .splash__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .splash__huge {
     color: #ffffff;
@@ -83,11 +96,6 @@
     font-weight: 700;
     line-height: 20px;
     text-align: center;
-
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    right: 0;
 
   }
 
