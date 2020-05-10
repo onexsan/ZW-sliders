@@ -38,7 +38,6 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-svgo": "^2.2.1",
-    "jQuery": "^1.7.4",
     "jquery": "^3.5.1",
     "jquery-touchswipe": "^1.6.19",
     "jquery.js": "0.0.2-security",
