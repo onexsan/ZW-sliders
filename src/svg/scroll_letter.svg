@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54.46 41.68"
+	 style="enable-background:new 0 0 54.46 41.68;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#100F10;stroke:#201600;stroke-width:0.5669;stroke-miterlimit:22.9256;}
+	.st1{fill:#E9ECEB;}
+	.st2{fill:#E2E2E2;}
+	.st3{fill:none;stroke:#E2E2E2;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:none;stroke:#FFFEFF;stroke-width:2.8347;stroke-miterlimit:22.9256;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#E2E2E2;}
+	.st8{fill:#FFFEFF;}
+	.st9{fill:none;stroke:#ECECEC;stroke-width:1.7007;stroke-miterlimit:22.9256;stroke-dasharray:3.4015,5.1022;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#E61C21;stroke:#FFFEFF;stroke-width:1.9844;stroke-miterlimit:22.9256;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#F3444E;}
+	.st12{fill:none;stroke:#F3444E;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#F3444E;stroke:#F3444E;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#F3444E;stroke:#F3444E;stroke-width:0.5669;stroke-miterlimit:22.9256;}
+	.st15{fill:#DC7D43;}
+	.st16{fill:none;stroke:#201600;stroke-width:0.5669;stroke-miterlimit:22.9256;}
+	.st17{fill:none;stroke:#201600;stroke-width:0.216;stroke-miterlimit:22.9256;}
+	.st18{fill:none;stroke:#FFFFFF;stroke-width:1.4172;stroke-miterlimit:22.9256;}
+	.st19{fill:none;stroke:#E2E2E2;stroke-width:1.4175;stroke-miterlimit:22.9256;}
+	.st20{fill-rule:evenodd;clip-rule:evenodd;fill:#E2E2E2;stroke:#E2E2E2;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st21{fill:none;stroke:#E2E2E2;stroke-width:1.4172;stroke-miterlimit:22.9256;}
+	.st22{fill:none;stroke:#E2E2E2;stroke-width:1.4176;stroke-miterlimit:22.9256;}
+	.st23{fill:none;stroke:#E2E2E2;stroke-width:1.4173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st24{fill:none;stroke:#E2E2E2;stroke-width:1.3421;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st25{fill:none;stroke:#D24A43;stroke-width:1.4173;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st26{fill:none;stroke:#D24A43;stroke-width:1.4173;stroke-linejoin:round;stroke-miterlimit:22.9256;}
+	.st27{fill:none;stroke:#D24A43;stroke-width:1.4173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st28{fill:none;stroke:#D24A43;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st29{fill-rule:evenodd;clip-rule:evenodd;fill:#E61C21;}
+	.st30{fill:none;stroke:#FFFFFF;stroke-width:1.5487;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st31{fill:none;stroke:#FFFFFF;stroke-width:1.4017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st32{fill:none;stroke:#FFFFFF;stroke-width:1.752;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st33{fill:none;stroke:#FFFFFF;stroke-width:1.7008;stroke-miterlimit:22.9256;}
+	.st34{fill:none;stroke:#FFFFFF;stroke-width:1.5459;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st35{fill:none;stroke:#FFFFFF;stroke-width:1.4173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st36{fill:none;stroke:#FFFFFF;stroke-width:1.5158;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st37{fill:none;stroke:#B6B8BD;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st38{fill:none;stroke:#B6B8BD;stroke-width:1.4174;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st39{fill:none;stroke:#B6B8BD;stroke-width:1.5177;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st40{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFEFF;}
+	.st41{fill:#E62A13;}
+	.st42{fill:none;stroke:#E62A13;stroke-width:1.486;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st43{fill:none;stroke:#E62A13;stroke-width:1.4121;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st44{fill:none;stroke:#E62A13;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st45{fill-rule:evenodd;clip-rule:evenodd;fill:#E62A13;}
+	.st46{fill:none;stroke:#E61C21;stroke-width:1.4173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st47{fill:none;stroke:#E61C21;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st48{fill:none;stroke:#FFFFFF;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st49{fill:none;stroke:#F1444C;stroke-width:1.4173;stroke-miterlimit:22.9256;}
+	.st50{fill-rule:evenodd;clip-rule:evenodd;fill:#FF0000;}
+	.st51{fill-rule:evenodd;clip-rule:evenodd;fill:#5C768B;}
+	.st52{fill:#D24A43;}
+	.st53{fill:none;stroke:#D24A43;stroke-width:2.8347;stroke-miterlimit:22.9256;}
+	.st54{fill-rule:evenodd;clip-rule:evenodd;fill:#D24A43;}
+</style>
+		<path class="st36" d="M13.01,17.24l10.5,8.3 M30.03,24.29l8.91-7.05 M14.56,32.63l7.41-5.87 M13.24,17.05
+			c-0.57,0.34-0.94,0.95-0.94,1.66v13.64c0,1.08,0.87,1.95,1.95,1.95h22.25 M23.54,25.52l1.22-0.97c0.71-0.56,1.72-0.56,2.43,0
+			l11.75,9.29c0.43-0.36,0.71-0.89,0.71-1.49V18.71c0-0.71-0.38-1.32-0.94-1.66 M20.67,10.91h10.61 M35.74,14.6v-3.69h-4.47
+			 M16.21,14.6v5.17 M35.74,14.6v3.2 M20.67,10.91h-4.46v1.59 M29.27,9.26l-2.06-1.7c-0.72-0.6-1.77-0.6-2.49,0l-4.05,3.35
+			 M38.71,17.05l-2.96-2.45 M13.24,17.05l2.96-2.45 M19.13,15.72h7.81 M26.95,30.3c0,0.54-0.44,0.97-0.98,0.97
+			c-0.54,0-0.98-0.43-0.98-0.97c0-0.53,0.44-0.97,0.98-0.97C26.52,29.33,26.95,29.77,26.95,30.3L26.95,30.3z M26.95,18.77h-7.82
+			 M32.81,18.77h-3.9"/>
+</svg>

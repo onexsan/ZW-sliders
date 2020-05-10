@@ -1,0 +1,68 @@
+.main-menu {
+  background: #57687f;
+}
+
+.main-menuLeft {
+  width: 60%;
+  height: 100vh;
+  background-color: #eceef3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+
+  &::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(./pictures/cross.png) no-repeat;
+    position: absolute;
+    right: -39px;
+    top: 5%;
+  }
+}
+
+.main-menu__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-menu__item {
+  display: flex;
+  margin: 40px 0px;
+  border-right: 4px solid transparent;
+
+  &:hover {
+    background-color: #dadee6;
+    border-right: 4px solid red;
+  }
+}
+
+.main-menu__img {
+  margin: 0 20px;
+}
+
+.main-menu__text {
+  color: #777b8e;
+  font-size: 14px;
+  font-weight: 400;
+  
+  display: flex;
+  align-items: center;
+}
+
+
+.main-menu__pic {
+  width: 30px;
+  height: 30px;
+  fill: transparent;
+  stroke: red;
+  fill-rule: nonzero;
+  transition: 0.3s;
+
+  &:hover {
+      stroke: red; 
+  }
+}
