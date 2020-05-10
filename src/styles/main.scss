@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800&display=swap&subset=cyrillic');
 
 @import './base/mixins', './base/variables', './base/layout';
-
+@import './base/btns.scss';
+@import './blocks/footer.scss';
 @import './blocks/splash.scss';
-
 @import './blocks/popup.scss';
 @import './blocks/advantages.scss';
 @import './blocks/main-menu.scss';
 @import './blocks/socials.scss';
 @import './blocks/hamburger-menu.scss';
 
+@import './about/about.scss';
+@import './about/process.scss';
+@import './about/geo.scss';
+@import './about/career.scss';
+@import './about/vacancies.scss';

@@ -1,0 +1,24 @@
+section.career {
+  height: 40vh;
+}
+
+.career {
+
+
+  &__info {
+    p {
+      color: #6c6c6c;
+    }
+
+    a {
+      display: inline-block;
+      color: #d1454d;
+    }
+  }
+
+
+  &__title {
+    color: #777b8e;
+    margin-bottom: 9px;
+  }
+}

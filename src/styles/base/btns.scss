@@ -1,0 +1,22 @@
+.vacancy-btn {
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-right: 1px solid #eceef3;
+  padding: 10px 20px;
+  text-align: center;
+
+  &--active {
+    background-color: #eceef3;
+    border-top: 4px solid #d1454d;
+    color: #d1454d;
+  }
+}
+
+.arrow-btn {
+  background-color: #fff;
+  border: 1px solid transparent;
+  padding: 5px 5px;
+  text-align: center;
+  color: #d1454d;
+  font-size: 20px;
+}
