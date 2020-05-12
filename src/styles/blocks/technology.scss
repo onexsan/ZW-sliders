@@ -1,0 +1,44 @@
+.technology {
+  background-image: url('../pictures/technology.png'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #748091;
+  flex-direction: column;
+  color: white;
+  opacity: 0.67;
+}
+
+.title__technology {
+  margin: 20px 0;
+}
+
+.technology__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.technology__item {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.technology__pic {
+  width: 100px;
+  height: 100px;
+  fill: transparent;
+  stroke: #d1464d;
+  fill-rule: nonzero;
+  transition: 1s;
+
+}
+
+.technology__subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: #d1464d;
+  text-align: start;
+}
+

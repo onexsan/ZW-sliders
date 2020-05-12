@@ -10,7 +10,7 @@
 <body>
   <div class="wrapper">
     <div class="maincontent">
-      <section class="section splash active">
+      <section class="section splash">
         <div class="container container__splash">
           <div class="splash__header">
             <div class="burger__menu">
@@ -91,7 +91,7 @@
               <div class="main-menu__text">Контакты</div>
             </li>
           </ul>
-          <ul class="socials__list">
+          <ul class="socials__list socials__list-row">
             <li class="socials__item">
               <a class="socials__link" href="#">
                 <svg class="socials__pic" viewbox="0 0 20 20" height="20" width="20">
@@ -212,41 +212,125 @@
           </li>
         </ul>
       </section>
-      <section class="section socials">
-       
+      <section class="section history">
+       <div class="container container__history">
+         <h2 class="history__title title">НАША ИСТОРИЯ</h2>
+         <div class="tv__img">
+           <img src="./pictures/tv.png" alt="монитор" class="tv__pic">
+         </div>
+         <p class="history__text text">
+          ООО «Восток-Запад» успешно работает на рынке рекламных услуг с 1991г. 
+          В начале своей деятельности фирма позиционировала себя в рекламно – информационном сегменте. 
+          Издание и распространение журнала, штат журналистов и фотокорреспондентов, сотрудничество с 
+          модельными агентствами — позволяло нам освещать новости, яркие и интересные события в жизни 
+          нашего города...
+         </p>
+         <button class="btn history__btn">УЗНАТЬ БОЛЬШЕ</button>
+       </div>
+      </section>
+      <section class="section serv-prod">
+        <div class="serv-prod__naming">
+          <h2 class="title title__serv-prod">
+            УСЛУГИ <br> И ПРОДУКЦИЯ</h2>
+        </div>
+        <div class="serv-prod__desc">
+          <ul class="serv-prod__list">
+            <li class="serv-prod__items">
+              <div class="serv-prod__call text">POS-МАТЕРИАЛЫ. 
+                ОФОРМЛЕНИЕ МЕСТ  ПРОДАЖ
+              </div>
+              <p class="serv-prod__text text">
+                Оформление входной группы, 
+                выносные штендеры, навигационные указатели и т.д
+              </p>
+            </li>
+            <li class="serv-prod__items">
+              <div class="serv-prod__call text">
+                СУВЕНИРНАЯ ПРОДУКЦИЯ ПРОМО МАТЕРИАЛЫ
+              </div>
+              <p class="serv-prod__text text">
+                Бизнес подарки, нанесение логотипа и корпоративной символики на рекламные материалы
+              </p>
+            </li>
+          </ul>
+        </div>  
+      </section>
+      <section class="section portfo">
+        <div class="portfo__top">
+          <h2 class="title title__portfo">ПОРТФОЛИО</h2>
+          <ul class="portfo__list">
+            <li class="portfo__item">ВСЕ</li>
+            <li class="portfo__item">POS-МАТЕРИАЛЫ</li>
+            <li class="portfo__item">СУВЕНИРНАЯ ПРОДУКЦИЯ</li>
+            <li class="portfo__item">ПОЛИГРАФИЯ</li>
+            <li class="portfo__item">НАРУЖНАЯ РЕКЛАМА</li>
+          </ul>  
+        </div>
+        <div class="portfo__bottom">
+          <h2 class="title title__caparol">CAPAROL SHOP</h2>
+          <p class="text text__portfo">
+            Торгово-выставочное оборудование. <br>
+            Система модулей из ЛДСП со светодиодной подсветкой 
+            и стоек-тотемов из алюминиевых композитов
+          </p>
+        </div>
+      </section>
+      <section class="section technology">
+        <h2 class="title title__technology">ТЕХНОЛОГИИ</h2>
+        <ul class="technology__list">
+          <li class="technology__item">
+            <div class="technology__img">
+              <svg class="technology__pic" viewbox="0 0 20 20" height="20" width="20">
+                <use href = "./images/icons/sprite.svg#scroll_dinamic"> </use>
+              </svg>
+            </div>
+            <h3 class="technology__subtitle subtitle">ОБРАБОТКА МЕТАЛЛА</h3> 
+            <p class="technology__text">
+              Изготовление металлоконструкций и торгового оборудования. Работа с нержавеющей сталью
+            </p>
+          </li>
+          <li class="technology__item">
+            <div class="technology__img">
+              <svg class="technology__pic" viewbox="0 0 20 20" height="20" width="20">
+                <use href = "./images/icons/sprite.svg#scroll_dinamic"> </use>
+              </svg>
+            </div>
+            <h3 class="technology__subtitle subtitle">ДЕРЕВООБРАБОТКА</h3> 
+            <p class="technology__text">
+              Изготовление торгово-выставочного оборудования и корпусной мебели. Работа с ЛДСП,МДФ, фанерой, массивом
+            </p>
+          </li>
+          <li class="technology__item">
+            <div class="technology__img">
+              <svg class="technology__pic" viewbox="0 0 20 20" height="20" width="20">
+                <use href = "./images/icons/sprite.svg#scroll_dinamic"> </use>
+              </svg>
+            </div>
+            <h3 class="technology__subtitle subtitle">РАБОТА С ОРГСТЕКЛОМ/ 
+              ПЛАСТИКОМ/КОМПОЗИТОМ
+            </h3> 
+            <p class="technology__text">
+              Изготовление POS-материалоы из акрилового стекла, полистирола, ПВХ, ABS, ПЭТ, пластиковых и алиминиевых 
+              композитов
+            </p>
+          </li>
+          <li class="technology__item">
+            <div class="technology__img">
+              <svg class="technology__pic" viewbox="0 0 20 20" height="20" width="20">
+                <use href = "./images/icons/sprite.svg#scroll_dinamic"> </use>
+              </svg>
+            </div>
+            <h3 class="technology__subtitle subtitle">ПЕЧАТЬ НАРАЗЛИЧНЫХ
+              МАТЕРИАЛАХ </h3> 
+            <p class="technology__text">
+              Шелкография, прямая UV-печать на твердых материалах, шировоформатная печать, оперативная полиграфия,
+              офстеная печать
+            </p>
+          </li>
+        </ul>
       </section>
     </div>  
   </div>
-  <ul class="nav-rt__list">
-    <li class="nav-rt__item active">
-        <a href="#" class="nav-rt__link" data-scroll-to="0"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="1"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="2"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="3"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="4"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="5"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="6"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="7"></a>
-    </li>
-    <li class="nav-rt__item">
-        <a href="#" class="nav-rt__link" data-scroll-to="8"></a>
-    </li>
-  </ul>
-
 </body>
 </html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.6/mobile-detect.min.js"></script>

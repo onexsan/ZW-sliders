@@ -39,12 +39,13 @@ body {
 
 .maincontent {
   flex: 1;
+  width: 100%;
   height: 100%;
   transition: transform 1s;
   position: relative;
   //transform: translateY();
 
-  border: 1px solid blue;
+ // border: 1px solid blue;
 }
 
 
@@ -107,10 +108,10 @@ table {
   min-height: 650px;
   position: relative;
   width: 100%;
-  border: 1px solid red;
-@include phones {
-  min-height: initial;
-}
+ // border: 1px solid red;
+  @include phones {
+    min-height: initial;
+  }
 }
 
 .container {
@@ -122,7 +123,7 @@ table {
   height: 100%;
   justify-content: center;
   position: relative;
-  border: 1px solid green;
+  //border: 1px solid green;
 
   @include phones {
    height: initial;

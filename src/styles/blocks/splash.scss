@@ -1,4 +1,23 @@
-@include phones {
+  .splash {
+    position: relative;
+
+   /* 
+    &::after {
+      content: "";
+      width: 320px;
+      height: 320px;
+      border-radius: 10%;
+      background-color: #eaeff3;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 0;
+      
+    }
+
+    */
+    
+  }
 
   .container__splash {
     display: flex;
@@ -101,14 +120,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-}

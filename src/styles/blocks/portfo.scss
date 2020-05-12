@@ -1,0 +1,71 @@
+
+.portfo {
+  background: url('../pictures/portf.png') no-repeat center center;
+  background-size: contain;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.portfo__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__portfo {
+  color: #777b8e;
+  margin: 20px 0;
+}
+
+.portfo__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.portfo__item {
+  margin: 0;
+  color: #999999;
+  font-size: 12px;
+  line-height: 16.53px;
+
+  display: flex;
+
+  &:first-child {
+    color: #d96367;
+  }
+
+  &:last-child {
+    margin-left: -50px;
+
+    &::after{
+      content: none;
+      margin-left: 0;
+    }
+  }
+
+  &::after {
+    content: "/";
+    display: block;
+    color: #999999;
+    margin-left: 15px;
+  }
+}
+
+.portfo__bottom {
+  background-color: #d96367;
+  color: white;
+  padding: 20px;
+  
+}
+
+.title__caparol {
+  text-align: start;
+}
+
+.text__portfo {
+  line-height: 13px;
+}
+
