@@ -22,6 +22,11 @@
     justify-content: space-around;
 }
 
+.socials__list-row {
+    flex-direction: row;
+    height: auto;
+}
+
 .socials__item {
     margin-right: 20px;
     width: 23px ;
