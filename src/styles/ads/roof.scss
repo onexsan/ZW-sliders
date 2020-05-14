@@ -1,0 +1,52 @@
+.roof {
+  margin-bottom: 10px;
+
+  &__intro {
+    background-image: url("../../pictures/roof-bg.png");
+    min-height: 340px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  &__title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    max-width: 155px;
+  }
+
+  &__desc {
+    padding: 22px 0;
+    background-color: #eceef3;
+
+    span {
+      color: #c32126;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__page {
+    margin-bottom: 7px;
+  }
+}
