@@ -1,8 +1,8 @@
 .popup {
   display: flex;
-  background: url('./pictures/bg1.png') no-repeat center;
-  object-fit: cover;
-
+  background: url('./pictures/bg1.png') no-repeat center center;
+  background-size: cover;
+  background-color: #d8dee6;
 }
 
 .menu__list {

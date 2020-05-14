@@ -1,4 +1,4 @@
-const sections = $('.section');
+/*const sections = $('.section');
 const display = $('.maincontent');
 let inscroll = false;
 
@@ -109,3 +109,4 @@ if (isMobile) {
   });
 }
 
+*/
