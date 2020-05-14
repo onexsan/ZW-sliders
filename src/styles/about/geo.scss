@@ -1,7 +1,6 @@
 .geo {
   background-color: #525a6a;
   color: #fff;
-  height: 600px;
 
   &__container {
     display: flex;
@@ -92,19 +91,6 @@
   &__border {
     width: 85%;
     height: 85%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid #fff;
   }
-}
-
-.geo__icon-pic {
-  width: 75px;
-  height: 75px;
-  fill: transparent;
-  stroke: white;
-  fill-rule: nonzero;
-  transition: 0.3s;
-  transform: rotate(-45deg);
-  margin-left: -3%;
 }
