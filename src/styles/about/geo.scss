@@ -92,6 +92,19 @@
   &__border {
     width: 85%;
     height: 85%;
-    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+}
+
+.geo__icon-pic {
+  width: 75px;
+  height: 75px;
+  fill: transparent;
+  stroke: white;
+  fill-rule: nonzero;
+  transition: 0.3s;
+  transform: rotate(-45deg);
+  margin-left: -3%;
 }
