@@ -1,20 +1,36 @@
   .splash {
     position: relative;
-
-   /* 
+    overflow: hidden;
+   
     &::after {
       content: "";
-      width: 320px;
-      height: 320px;
-      border-radius: 10%;
-      background-color: #eaeff3;
+      width: 350px;
+      height: 350px;
+      border-radius: 25%;
+      background-color: #eaf0f4;
       position: absolute;
-      top: 0;
-      right: 0;
-      z-index: 0;
+      top: -30%;
+      right: 20%;
+      z-index: 1;
+      transform: rotate(45deg);
       
     }
-    */
+
+    
+    &::before {
+      content: "";
+      width: 450px;
+      height: 450px;
+      border-radius: 25%;
+      background-color: #eaf0f4;
+      position: absolute;
+      bottom: 0%;
+      right: -70%;
+      z-index: 1;
+      transform: rotate(45deg);
+      
+    }
+    
   }
 
   .container__splash {
@@ -42,6 +58,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    z-index: 10;
   }
 
   .splash__desc {
@@ -51,22 +68,25 @@
     position: relative;
   }
 
-  .splash__desc::after {
-    content: "";
-    background-image: url('./pictures/ball1.png');
-    display: block;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: -10%;
-    right: -10%;
-  }
-
   .splash__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+
+    &::after {
+        content: "";
+        background: url('./pictures/ball1.png') no-repeat;
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: -25%;
+        right: 7%;
+        z-index: 5;
+    
+    }
   }
 
   .splash__huge {
@@ -93,6 +113,7 @@
 
   .splash__logo {
     margin: 19px 0 16px;
+    z-index: 5;
   }
 
   .logo__pic {
@@ -105,6 +126,7 @@
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+    z-index: 5;
   }
 
   .splash__text {
