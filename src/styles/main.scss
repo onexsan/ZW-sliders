@@ -9,15 +9,27 @@
 @import './blocks/main-menu.scss';
 @import './blocks/socials.scss';
 @import './blocks/hamburger-menu.scss';
-@import './blocks/history.scss';
-@import './blocks/title.scss';
-@import './blocks/serv-prod.scss';
-@import './blocks/portfo.scss';
-@import './blocks/technology.scss';
-@import './blocks/news.scss';
 
 @import './about/about.scss';
 @import './about/process.scss';
 @import './about/geo.scss';
 @import './about/career.scss';
 @import './about/vacancies.scss';
+
+@import './products/products.scss';
+@import './products/catalog.scss';
+@import './products/organizers.scss';
+
+@import './stands/pos.scss';
+@import './stands/exhibition.scss';
+@import './stands/reception.scss';
+
+@import './ads/ads.scss';
+@import './ads/roof.scss';
+@import './ads/signboards.scss';
+@import './ads/light.scss';
+@import './ads/neon.scss';
+@import './ads/stele.scss';
+@import './ads/auto.scss';
+
+@import './design/design.scss';
