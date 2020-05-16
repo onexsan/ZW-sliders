@@ -1,0 +1,33 @@
+.neon {
+  margin-bottom: 15px;
+
+  &__title {
+    color: #777b8e;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__intro {
+    background-color: #eceef3;
+    padding: 15px 0px;
+
+    span {
+      color: #c32126;
+      text-transform: uppercase;
+    }
+  }
+
+  &__img {
+    min-height: 265px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(81, 97, 120, 0.5) 0%, rgba(81, 97, 120, 0.5) 100%), url("../../pictures/neon-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
