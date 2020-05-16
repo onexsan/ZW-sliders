@@ -1,0 +1,29 @@
+.exhibition {
+  padding: 0.625rem 0rem;
+
+  &__title {
+    color: #777b8e;
+  }
+
+  &__desc {
+    background-color: #f6f6f6;
+    padding: 17px 0px;
+
+    span {
+      color: #c32126;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__img {
+    background-color: #edeef3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+}
