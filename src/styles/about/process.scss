@@ -42,17 +42,8 @@
   &__img {
     width: 75px;
     height: 75px;
+    border: 1px dashed #fff;
     margin-bottom: 5px;
   }
 
-}
-
-.plan__img-pic {
-  width: 75px;
-  height: 75px;
-  fill: transparent;
-  stroke: red;
-  fill-rule: nonzero;
-  transition: 0.3s;
-  margin-right: 10%;
 }
