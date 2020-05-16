@@ -45,7 +45,7 @@ body {
   position: relative;
   //transform: translateY();
 
- // border: 1px solid blue;
+ border: 1px solid blue;
 }
 
 
@@ -108,7 +108,8 @@ table {
   min-height: 650px;
   position: relative;
   width: 100%;
- // border: 1px solid red;
+  border: 1px solid red;
+  
   @include phones {
     min-height: initial;
   }

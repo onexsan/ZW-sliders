@@ -1,0 +1,182 @@
+
+.pos-materials, .container {
+  flex-direction: column;
+
+}
+
+
+.pos {
+  &__img {
+  background: url("./pictures/posma.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 320px;
+  width: 100%;
+  margin-bottom: 10px;
+
+  }
+
+  &__list {
+    display: flex;
+
+  }
+
+  &__item {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__item--pic {
+    width: 75px;
+    height: 75px;
+    fill: transparent;
+    stroke: #e55358;
+    transition: 1s;
+
+  }
+
+  &__item--text {
+    color: #6a6a6a;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.67px;
+    text-align: center;
+  }
+
+}
+
+.title__pos {
+  color: #777b8e;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.subtitle__pos {
+  color: #c94d3f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pos__text {
+  color: #6a6a6a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+
+.huge-pos, .plexiglass-prod, .sale-point {
+
+  flex-direction: column;
+  background-color: #f4f5f9;
+
+  &__img {
+    width: 100%;
+    height: 160px;
+    background-color: #989898;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+      background-color: #e55358;
+    }
+
+    &::after {
+      content: "";
+      width: 110px;
+      height: 110px;
+      background-image: url('./pictures/posma_bg2.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 50%;
+      border: 10px solid #f4f5f9;
+      background-color: white;
+      position: absolute;
+      bottom: -60px;
+      left: 35%;
+    }
+  }
+
+  &__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  &__title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.12px;
+    margin-top: 25px;
+    max-width: 55%;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    color: #989898;
+    //font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+  }
+
+  &__btn {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.17px;
+    background-color: #989898;
+    padding: 15px 35px;
+
+    &:hover {
+      background-color: #e55358;
+    }
+
+   // margin-top: 70px;
+  }
+
+}
+
+.huge-pos {
+  &__img { 
+    &::after {
+      background-image: url('./pictures/posma_bg2.png');
+    }
+  }
+}
+
+.sale-point {
+  &__img { 
+    &::after {
+      background-image: url('./pictures/posma_bg3.png');
+    }
+  }
+}
+
+.plexiglass-prod {
+  &__img { 
+    &::after {
+      background-image: url('./pictures/posma_bg4.png');
+    }
+  }
+}
+
