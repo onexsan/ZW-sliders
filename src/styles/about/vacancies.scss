@@ -1,4 +1,7 @@
 .vacancies {
+  padding: 10px 0px;
+  font-size: 12px;
+
   &__container {
     justify-content: flex-start;
     align-items: center;
@@ -49,7 +52,7 @@
 
   &__btns {
     display: flex;
-    align-items: flex-end;
+    align-items: stretch;
     justify-content: space-between;
 
     .vacancy-btn {
@@ -69,6 +72,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  min-height: 30px;
 }
 
 .label {

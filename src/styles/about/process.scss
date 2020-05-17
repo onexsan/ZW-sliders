@@ -1,4 +1,5 @@
 .process {
+  font-size: 12px;
   background-color: #525a6a;
   background: url("../../pictures/process-bg.png");
   background-repeat: no-repeat;
@@ -8,6 +9,10 @@
 
   &__title {
     margin-bottom: 20px;
+  }
+
+  &__container {
+    padding: 18px 0px;
   }
 
 }
