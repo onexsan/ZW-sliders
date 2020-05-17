@@ -4,6 +4,7 @@
   border-right: 1px solid #eceef3;
   padding: 10px 20px;
   text-align: center;
+  min-height: 65px;
 
   &--active {
     background-color: #eceef3;
@@ -18,7 +19,16 @@
   padding: 5px 5px;
   text-align: center;
   color: #d1454d;
-  font-size: 20px;
+  height: 30px;
+  width: 50px;
+
+  &__icon {
+    width: 34px;
+    height: 64px;
+    fill: transparent;
+    stroke: red;
+    fill-rule: nonzero;
+  }
 
 }
 

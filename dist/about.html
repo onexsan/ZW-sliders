@@ -19,22 +19,22 @@
 						<nav class="breadcrumbs">
 							<ul class="breadcrumbs__list">
 								<li class="breadcrumbs__item">
-									<a href="" class="breadcrumbs__link breadcrumbs__link--active">О нас</a>
+									<a href="#about" class="breadcrumbs__link breadcrumbs__link--active">О нас</a>
 									<div class="breadcrumbs__divider">/</div>
-									<a href="" class="breadcrumbs__link">Как мы работаем</a>
+									<a href="#work" class="breadcrumbs__link">Как мы работаем</a>
 								</li>
 
 								<li class="breadcrumbs__item">
-									<a href="" class="breadcrumbs__link">География работ</a>
+									<a href="#geo" class="breadcrumbs__link">География работ</a>
 									<div class="breadcrumbs__divider">/</div>
-									<a href="" class="breadcrumbs__link">Карьера</a>
+									<a href="#career" class="breadcrumbs__link">Карьера</a>
 								</li>
 
 							</ul>
 						</nav>
 					</div>
 
-					<div class="about__moments">
+					<div class="about__moments" id="about">
 						<ul class="moments__list">
 							<li class="moments__item">
 								<div class="moments__date">
@@ -107,7 +107,7 @@
 				</div>
 			</section>
 
-			<section class="section process">
+			<section class="section process" id="work">
 				<div class="container process__container">
 					<h2 class="title process__title">Как мы работаем</h2>
 					<div class="process__plan">
@@ -214,7 +214,7 @@
 			</section>
 
 
-			<section class="section geo">
+			<section class="section geo" id="geo">
 				<div class="container geo__container">
 					<div class="geo__facts">
 						<div class="geo__item">
@@ -244,7 +244,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="geo__map"> </div>
+				</div>
+				<div class="geo__map">
+					<img src="./pictures/map-bg.png" alt="" class="geo__map-bg">
+				</div>
+				<div class="container geo__container">
 					<div class="geo__facts geo__facts--bottom">
 						<div class="geo__item geo__item--bottom">
 							<div class="geo__bottom-img">
@@ -264,7 +268,7 @@
 				</div>
 			</section>
 
-			<section class="section career">
+			<section class="section career" id="career">
 				<div class="container career__container">
 					<div class="career__info">
 						<h2 class="title career__title">Работа в "Восток-Запад"</h2>
@@ -288,8 +292,10 @@
 					<div class="vacancies__slider">
 						<div class="slider__btns">
 							<button class="arrow-btn arrow-btn--left">
-								< </button>
-									<button class="arrow-btn arrow-btn--right"> > </button>
+								<= </button>
+									<button class="arrow-btn arrow-btn--right">
+										=>
+									</button>
 						</div>
 						<div class="vacancies__btns">
 							<button class="vacancy-btn vacancy-btn--active">Инженер-конструктор</button>

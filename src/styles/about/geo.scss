@@ -1,32 +1,37 @@
 .geo {
-  background-color: #525a6a;
+  background-color: #c62228;
   color: #fff;
-  height: 600px;
 
   &__container {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
 
   &__map {
-    flex: 3;
+    background-color: #525a6a;
+    flex: 1;
     width: 100%;
-    background-image: url("../../pictures/map-bg.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    max-width: 480px;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__facts {
-    flex: 3;
+    padding-top: 10px;
+    min-height: 150px;
+    flex: 1;
     width: 100%;
     background-color: #c62228;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
+
+    &--bottom {
+      padding-top: 0px;
+      padding-bottom: 1.625rem;
+      align-items: flex-end;
+    }
   }
 
   &__item {
@@ -42,14 +47,15 @@
 
   &__item--bottom {
     justify-content: flex-start;
+    margin-bottom: 10px;
 
     .geo__bottom-img {
       background-color: #525a6a;
       width: 70px;
       height: 70px;
       transform: rotate(45deg);
-      position: relative;
-      bottom: 13%;
+      position: absolute;
+      bottom: 80%;
     }
 
     .geo__desc {
@@ -82,8 +88,8 @@
     width: 70px;
     height: 70px;
     transform: rotate(45deg);
-    position: relative;
-    top: 13%;
+    position: absolute;
+    top: 80%;
     display: flex;
     align-items: center;
     justify-content: center;

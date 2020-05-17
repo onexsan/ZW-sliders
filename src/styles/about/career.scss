@@ -1,9 +1,9 @@
-section.career {
-  height: 40vh;
-}
-
 .career {
-
+  padding: 10px 0px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &__info {
     p {
