@@ -1,6 +1,7 @@
 .vacancies {
   padding: 10px 0px;
-  font-size: 12px;
+  font-size: 14px;
+  color: #6c6c6c;
 
   &__container {
     justify-content: flex-start;
@@ -54,8 +55,10 @@
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    color: #6c6c6c;
 
     .vacancy-btn {
+      color: inherit;
       flex: 1;
     }
   }
