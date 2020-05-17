@@ -1,5 +1,4 @@
 footer {
-  height: 100vh;
   min-height: 650px;
   width: 100%;
   display: -webkit-box;
@@ -15,14 +14,9 @@ footer {
   position: relative;
   color: #fff;
   font-size: 12px;
-
-  @include phones {
-    min-height: initial;
-  }
-
+  padding: 15px 5px;
 
   &__container {
-    padding: 15px 25px;
     height: 100%;
   }
 }
@@ -85,13 +79,11 @@ footer::after {
 }
 
 .contacts__content {
-  -webkit-box-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
+  flex: 4;
   margin-right: 20px;
 }
 
-.contacts__socials {
+.contacts__soc {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -119,7 +111,9 @@ footer::after {
 
 .address__img {
   height: 25px;
-  width: 30px;
+  width: 25px;
+  min-width: 25px;
+  min-height: 25px;
   margin-right: 8px;
   border-radius: 50%;
   background-color: #fff;
@@ -128,9 +122,16 @@ footer::after {
   justify-content: center;
 }
 
+.address__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .schedule__img {
   height: 25px;
-  width: 30px;
+  width: 27px;
+  max-width: 27px;
   margin-right: 8px;
   border-radius: 50%;
   background-color: #fff;
@@ -200,12 +201,14 @@ footer::after {
   align-items: center;
 }
 
-.socials__list {
+.soc__list {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
+
 }
 
 .entrepreneur__img {
@@ -219,24 +222,56 @@ footer::after {
   position: relative;
 }
 
-// .entrepreneur::before {
-//   content: "";
-//   position: relative;
-//   width: 45%;
-//   height: 15px;
-//   border-top: 1px white dashed;
-//   border-right: 1px white dashed;
-//   top: 9%;
-//   left: 25%;
-// }
+.phone__content,
+.schedule__list,
+.id__list,
+.address__list,
+.details__list,
+.entrepreneur__details {
 
-// .entrepreneur::after {
-//   content: "";
-//   position: relative;
-//   width: 45%;
-//   height: 15px;
-//   border-top: 1px white dashed;
-//   border-left: 1px white dashed;
-//   bottom: 87%;
-//   right: 25%;
-// }
+  p,
+  li {
+    color: #fff;
+    font-size: 14px;
+  }
+
+}
+
+.address__content,
+.email__link,
+.phone__link {
+  font-size: 14px;
+}
+
+.soc__icon {
+  width: 17px;
+  height: 17px;
+  fill: transparent;
+  stroke: white;
+  fill-rule: evenodd;
+
+  &--vk {
+    fill: white;
+    stroke: transparent;
+    stroke-width: 1px;
+  }
+}
+
+.contacts__icon {
+  width: 17px;
+  height: 17px;
+  fill: transparent;
+  stroke: red;
+  fill-rule: evenodd;
+}
+
+.soc__link {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.trade-img {
+  width: 20px;
+  height: 20px;
+}
