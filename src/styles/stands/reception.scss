@@ -1,5 +1,4 @@
 .reception {
-  margin-bottom: 1.25rem;
   padding: 0.625rem 0rem;
 
   &__title {
@@ -12,6 +11,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    width: 100%;
   }
 
   &__img {
@@ -24,6 +24,8 @@
   }
 
   &__desc {
+    padding: 15px;
+
     span {
       color: #c32126;
       text-transform: uppercase;
@@ -33,6 +35,10 @@
     .reception__list {
       margin-bottom: 10px;
     }
+  }
+
+  &__item {
+    font-size: 14px;
   }
 
 }

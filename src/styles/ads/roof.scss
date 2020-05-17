@@ -2,8 +2,8 @@
   margin-bottom: 10px;
 
   &__intro {
-    background-image: url("../../pictures/roof-bg.png");
-    min-height: 340px;
+    background-image: url("./pictures/roof-bg.png");
+    min-height: 270px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@
   }
 
   &__desc {
-    padding: 22px 0;
+    padding: 15px;
     background-color: #eceef3;
 
     span {
@@ -44,9 +44,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    width: 100%;
   }
 
   &__page {
     margin-bottom: 7px;
+  }
+
+  &__page,
+  &__list,
+  &__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__bg {
+    width: 100%;
+    max-width: 480px;
   }
 }
