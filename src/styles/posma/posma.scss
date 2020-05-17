@@ -34,6 +34,7 @@
     height: 75px;
     fill: transparent;
     stroke: #e55358;
+    stroke-width: 2px;
     transition: 1s;
 
   }
@@ -54,6 +55,19 @@
   font-weight: 700;
   text-transform: uppercase;
   margin: 20px 0;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: flex;
+    width: 5px;
+    height: 20px;
+    background-color: #f6444a;
+    position: absolute;
+    bottom: 5px;
+    right: -15px;
+
+  }
 }
 
 .subtitle__pos {
@@ -110,7 +124,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 80px 0;
   }
 
   &__title {
