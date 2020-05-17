@@ -1,13 +1,6 @@
 html {
   font-size: 16px;
 
-  @include tablets {
-    font-size: 14px;
-  }
-
-  @include phones {
-    font-size: 13px;
-  }
 }
 
 html,
@@ -86,6 +79,10 @@ h6 {
   font-weight: normal;
 }
 
+p {
+  font-size: 14px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -152,6 +149,7 @@ table {
   margin-bottom: 10px;
 }
 
-p {
-  color: inherit;
+p,
+li {
+  color: #6a6a6a;
 }

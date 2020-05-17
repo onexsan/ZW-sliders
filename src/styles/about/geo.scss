@@ -60,6 +60,7 @@
 
     .geo__desc {
       margin-top: -15px;
+
     }
   }
 
@@ -81,6 +82,10 @@
   &__desc {
     font-size: 20px;
     margin-bottom: -15px;
+
+    p {
+      color: #fff;
+    }
   }
 
   &__img {
@@ -109,7 +114,7 @@
   height: 75px;
   fill: transparent;
   stroke: white;
-  fill-rule: nonzero;
+  fill-rule: evenodd;
   transition: 0.3s;
   transform: rotate(-45deg);
   margin-left: -3%;

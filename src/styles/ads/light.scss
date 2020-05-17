@@ -1,5 +1,4 @@
 .light {
-  padding: 10px 0px;
 
   &__panels {
     margin-bottom: 15px;
@@ -12,6 +11,8 @@
   }
 
   &__intro {
+    padding: 15px;
+
     span {
       color: #c32126;
       text-transform: uppercase;
@@ -35,8 +36,8 @@
       position: absolute;
       z-index: 0;
       width: 100%;
-      height: 40%;
-      top: 30%;
+      height: 80%;
+      top: 10%;
       background-color: #f6f6f6;
     }
   }
@@ -49,6 +50,12 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+
+    &-bg {
+      width: 100%;
+      max-width: 30rem;
+    }
+
   }
 }
 
@@ -93,6 +100,8 @@
   }
 
   &__desc {
+    padding: 15px;
+
     span {
       text-transform: uppercase;
       color: #c32126;

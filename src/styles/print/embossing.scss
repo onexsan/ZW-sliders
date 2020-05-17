@@ -7,10 +7,11 @@
 
   &__intro {
     min-height: 20.5rem;
+    width: 100%;
   }
 
   &__images {
-    background: linear-gradient(90deg, rgba(81, 97, 120, 0.5) 0%, rgba(81, 97, 120, 0.5) 100%), url("../../pictures/embossing-bg.png");
+    background: linear-gradient(90deg, rgba(81, 97, 120, 0.5) 0%, rgba(81, 97, 120, 0.5) 100%), url("./pictures/embossing-bg.png");
     height: 60%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,6 +39,7 @@
   }
 
   &__desc {
+    padding: 15px;
 
     span {
       text-transform: uppercase;

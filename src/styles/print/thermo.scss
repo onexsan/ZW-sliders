@@ -7,7 +7,7 @@
   }
 
   &__intro {
-    background: url("../../pictures/thermo-bg.png");
+    background: url("./pictures/thermo-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -21,7 +21,7 @@
 
   &__desc {
     background-color: #eceef3;
-    padding: 10px 0px;
+    padding: 15px;
 
     span {
       text-transform: uppercase;

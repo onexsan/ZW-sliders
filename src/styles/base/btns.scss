@@ -42,3 +42,15 @@
   color: #ffffff;
 
 }
+
+.circle-btn {
+  border: 1px solid #c52228;
+  border-radius: 50%;
+  height: 13px;
+  width: 12px;
+  background: #fff;
+
+  &--active {
+    background: #c52228;
+  }
+}

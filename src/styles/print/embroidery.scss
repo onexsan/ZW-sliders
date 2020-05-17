@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
 
     &:before {
       content: "";
@@ -28,6 +29,7 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
+    padding: 15px;
 
     p {
       margin-bottom: 20px;
