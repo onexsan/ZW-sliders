@@ -1,0 +1,49 @@
+.arrow {
+  display: flex;
+}
+
+.arrow__left {
+  margin-right: 10px;
+}
+
+.arrow__pic {
+  width: 30px;
+  height: 20px;
+  fill: transparent;
+  stroke: white;
+  stroke-width: 3px;
+  transition: 0.3s;
+  
+  &:hover {
+    stroke: #fa454b
+  }
+  
+}
+
+.serv-prod__desc .arrow__pic {
+  width: 50px;
+  height: 25px;
+  stroke: #647489;
+
+  &:hover {
+    stroke: #fa454b
+  }
+}
+
+.portfo__bottom .arrow {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  justify-content: center;
+}
+
+.portfo__bottom .arrow__pic {
+  width: 50px;
+  height: 25px;
+  stroke: #647489;
+
+
+  &:hover {
+    stroke: #fa454b
+  }
+}

@@ -1,5 +1,6 @@
 
 .portfo {
+  min-height: 100vh;
   background: url('./pictures/portf.png') no-repeat center center;
   background-size: contain;
   justify-content: space-between;
@@ -57,15 +58,18 @@
 .portfo__bottom {
   background-color: #d96367;
   color: white;
-  padding: 20px;
+  
   
 }
 
 .title__caparol {
   text-align: start;
+  margin: 20px;
 }
 
 .text__portfo {
+  margin: 20px;
   line-height: 13px;
+  color: inherit;
 }
 

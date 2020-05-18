@@ -1,11 +1,15 @@
-@include phones {
+.splash {
+  min-height: 100vh;
+  background-color: #f6f9fb;
+}
 
-  .container__splash {
+.container__splash {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #f6f9fb;
     position: relative;
+    min-height: 100vh;
+  
   }
 
   .container__splash::after {
@@ -37,6 +41,7 @@
   .splash__desc::after {
     content: "";
     background-image: url('./pictures/ball1.png');
+    background-repeat: no-repeat;
     display: block;
     width: 100px;
     height: 100px;
@@ -108,7 +113,3 @@
 
 
 
-
-
-
-}
