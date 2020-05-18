@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800&display=swap&subset=cyrillic');
+@import './fonts/fonts.scss';
+
 
 @import './base/mixins', './base/variables', './base/layout';
 @import './base/btns.scss';

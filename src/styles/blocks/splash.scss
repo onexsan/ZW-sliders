@@ -1,7 +1,24 @@
 .splash {
   min-height: 100vh;
   background-color: #f6f9fb;
+  position: relative;
+
+  /*
+
+  &::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-right: 100px solid red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  */
 }
+
+
 
 .container__splash {
     display: flex;
@@ -58,19 +75,20 @@
   }
 
   .splash__huge {
+    //font-family: 'Intro-Black';
     color: #ffffff;
-    //font-family: "Intro - Black";
     font-size: 79px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 0 0 32px rgba(119, 123, 142, 0.16);
   }
 
   .splash__big {
     text-shadow: 0 0 32px rgba(119, 123, 142, 0.16);
     color: #ffffff;
     font-size: 25px;
-    font-weight: 400;
-
+    font-weight: 700;
+    //font-family: 'Intro-Black';
     align-self: flex-end;
   }
 

@@ -44,9 +44,9 @@
 	.st27{fill:none;stroke:#D24A43;stroke-width:1.4173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st28{fill:none;stroke:#D24A43;stroke-width:1.4173;stroke-miterlimit:22.9256;}
 	.st29{fill-rule:evenodd;clip-rule:evenodd;fill:#E61C21;}
-	.st30{fill:none;stroke:#FFFFFF;stroke-width:1.5487;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st31{fill:none;stroke:#FFFFFF;stroke-width:1.4017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st32{fill:none;stroke:#FFFFFF;stroke-width:1.752;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st30{fill:none;stroke-width:1.5487;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st31{fill:none;stroke-width:1.4017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st32{fill:none;stroke-width:1.752;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st33{fill:none;stroke:#FFFFFF;stroke-width:1.7008;stroke-miterlimit:22.9256;}
 	.st34{fill:none;stroke:#FFFFFF;stroke-width:1.5459;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st35{fill:none;stroke:#FFFFFF;stroke-width:1.4173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
