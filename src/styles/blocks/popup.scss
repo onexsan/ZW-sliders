@@ -1,7 +1,9 @@
 .popup {
   display: flex;
-  background: url('./pictures/bg1.png') no-repeat center;
+  background: linear-gradient(90deg, rgba(216, 222, 230, 0.5) 0%, rgba(216, 222, 230, 0.5) 100%), url('./pictures/bg1.png') no-repeat center;
   object-fit: cover;
+  min-height: 100vh;
+  align-items: flex-start;
 
 }
 
@@ -11,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding-top: 70px;
 }
 
 .menu__item {
@@ -18,11 +21,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 12px 0;
+  padding: 7px 0;
   border-right: 5px solid transparent;
   transition: .3s;
   color: white;
   background-color: #718094;
+  margin: 5px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     &:hover {
     color: #fa454b;
@@ -38,8 +46,15 @@
 }
 
 .menu__pic {
-  width: 100%;
-  height: 100%;
+  width: 50px;
+  height: 50px;
+  fill: transparent;
+  stroke: white;
+  transition: 0.3s;
+
+  &:hover {
+    stroke: #fa454b
+  }
 }
 
 .menu__title {
