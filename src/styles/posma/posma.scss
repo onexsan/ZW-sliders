@@ -55,19 +55,9 @@
   font-weight: 700;
   text-transform: uppercase;
   margin: 20px 0;
+  padding-right: 5px;
   position: relative;
-
-  &::after {
-    content: "";
-    display: flex;
-    width: 5px;
-    height: 20px;
-    background-color: #f6444a;
-    position: absolute;
-    bottom: 5px;
-    right: -15px;
-
-  }
+  border-right: 2px solid #c94d3f;
 }
 
 .subtitle__posma {

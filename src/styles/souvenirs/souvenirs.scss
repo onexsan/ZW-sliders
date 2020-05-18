@@ -64,7 +64,7 @@
     position: absolute;
     z-index: 10;
     top: 90%;
-    left: 10%;
+    left: 10px;
   }
 
   &__item {
@@ -82,8 +82,8 @@
       border-radius: 50%;
       background-color: #f6444a;
       position: absolute;
-      top: -2px;
-      left: -4px;
+      top: -5px;
+      left: -5px;
       z-index: -1;
     }
 
@@ -109,20 +109,11 @@
     color: #777b8e;
     font-size: 16px;
     font-weight: 700;
-    padding: 20px 0 0;
+    padding-left: 5px;
     position: relative;
+    border-left: 2px solid #c94d3f;
+    align-self: center;
 
-    &::after {
-      content: "";
-      display: flex;
-      width: 2px;
-      height: 20px;
-      background-color: #ef7175;
-      position: absolute;
-      top: 50%;
-      left: 25%;
-
-    }
   }
 
   
@@ -456,7 +447,7 @@
       border-radius: 50%;
       position: absolute;
       top: -10px;
-      left: 15%;
+      left: 30px;
 
     }
   }
