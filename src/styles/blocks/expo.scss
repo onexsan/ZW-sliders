@@ -1,0 +1,119 @@
+.expo {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #eceef3;
+
+  &__img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 380px;
+    width: 100%;
+
+ 
+  }
+
+  &__img1 {
+    background-image: url('./pictures/expo1.png');
+  }
+
+  &__img2 {
+    background-image: url('./pictures/expo2.png');
+    background-size: auto;
+  }
+
+  &__img3 {
+    background-image: url('./pictures/expo3.png');
+
+  }
+
+  &__img4 {
+    background-image: url('./pictures/expo4.png');
+  }
+
+  &__img5 {
+    background-image: url('./pictures/expo5.png');
+  }
+
+  &__img6 {
+    background-image: url('./pictures/expo6.png');
+  }
+
+  &__img7 {
+    background-image: url('./pictures/expo7.png');
+  }
+
+  &__img8 {
+    background-image: url('./pictures/expo8.png');
+  }
+
+  &__img9 {
+    background-image: url('./pictures/expo9.png');
+  }
+
+  &__img10 {
+    background-image: url('./pictures/expo10.png');
+  }
+
+  &__img11 {
+    background-image: url('./pictures/expo11.png');
+  }
+
+  &__img12 {
+    background-image: url('./pictures/expo12.png');
+  }
+
+  &__container {
+    padding: 0 30px 30px;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      border: 30px solid transparent;
+      border-bottom: 30px solid #eceef3;
+      position: absolute;
+      bottom: 97%;
+      left: 160px;
+
+    }
+  }
+
+  &__data {
+    color: #6a6a6a;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+  }
+
+  &__title {
+    color: #c52228;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 20px;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 30px;
+      height: 3px;
+      background-color: #c7301e;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+  }
+
+  &__text {
+    color: #6a6a6a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: justify;
+  }
+
+}
+
