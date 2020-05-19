@@ -232,7 +232,9 @@ footer::after {
 .id__list,
 .address__list,
 .details__list,
-.entrepreneur__details {
+.entrepreneur__details,
+.entrepreneur__phone {
+  font-size: 14px;
 
   p,
   li {
