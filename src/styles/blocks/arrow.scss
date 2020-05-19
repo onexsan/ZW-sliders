@@ -13,11 +13,20 @@
   stroke: white;
   stroke-width: 3px;
   transition: 0.3s;
-  
+
   &:hover {
     stroke: #fa454b
   }
-  
+
+  &--catalog,
+  &--vacancies {
+    stroke: lightgray;
+  }
+
+  &--active {
+    stroke: #fa454b;
+  }
+
 }
 
 .serv-prod__desc .arrow__pic {
